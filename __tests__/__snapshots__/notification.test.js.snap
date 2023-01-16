@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render notification component 1`] = `
+<div
+  className="notification"
+  data-testid="notification"
+>
+  <button
+    className="modal-close"
+    onClick={[Function]}
+  >
+    ✖
+  </button>
+  Ошибка 500, попробуйте еще раз
+</div>
+`;

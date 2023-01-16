@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing header component render header component 1`] = `
+<nav>
+  <li>
+    <a
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Главная
+    </a>
+  </li>
+  <li>
+    <a
+      href="/categories"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Категории
+    </a>
+  </li>
+  <li>
+    <a
+      href="/cart"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Корзина
+    </a>
+  </li>
+  <li
+    className="dropdown"
+  >
+    <a
+      href="/profile"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onTouchStart={[Function]}
+    >
+      Профиль
+    </a>
+    <div
+      className="dropdown-content"
+    >
+      <a
+        href="/profile"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onTouchStart={[Function]}
+      >
+        Профиль
+      </a>
+      <a
+        href="/auth"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onTouchStart={[Function]}
+      >
+        Выход
+      </a>
+    </div>
+  </li>
+</nav>
+`;

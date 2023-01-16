@@ -1,0 +1,448 @@
+{
+  "users": [
+    {
+      "email": "new@mail.ru",
+      "password": "$2a$10$KK6y5JH1L6bUnOyXl.lxjulA.ylsfjjL1P37lkuaZHilfalL.p.ci",
+      "id": "14H88A",
+      "name": "New User",
+      "role": "customer"
+    },
+    {
+      "email": "user@mail.ru",
+      "password": "$2a$10$NLJZ6RKdlqXmkqTgy7raMu4BLFjLjAVv2cYIShoWNg3N83aKzJFLe",
+      "id": "f18437c2e887",
+      "name": "Username Usernamovich",
+      "role": "customer"
+    },
+    {
+      "email": "username416@mail.ru",
+      "password": "$2a$10$jePw6Rf4qsW4XQY3/foSd.JFX86MO9GbfEN3hu0l6YgUaQJCgWVaK",
+      "id": "f18498b2bca9",
+      "name": "Myname User",
+      "role": "customer"
+    },
+    {
+      "email": "manager@shop.kz",
+      "password": "$2a$10$AtAoBVCjlTN6x3QsIQ9SMur0W1j5z0ZG/JXHqMmArTu2qiNoXHSdy",
+      "id": "f184f195f073",
+      "name": "Manager Shop.kz",
+      "role": "manager"
+    },
+    {
+      "email": "admin@mail.ru",
+      "password": "$2a$10$.XvDGwG7v4xigT1TZMLbB.IU6vog.nectdcvxmBZLxLCtOeAA168.",
+      "id": "f1852ec47592",
+      "name": "Admin",
+      "role": "admin"
+    },
+    {
+      "email": "newman@new.man",
+      "password": "$2a$10$v7H7Trq.0LyuyU4WEjz5jucG79ojEwE9W/F/LsxYgyIT49TdZ0pde",
+      "id": "f18595198d23",
+      "name": "Newmanager Manager Managerovich",
+      "role": "manager"
+    },
+    {
+      "email": "manager@abc.kz",
+      "password": "$2a$10$5.R4Q3NBAFPQAKbBnll0Gev4YpQfFEwVdcqqPHirpL739t9ChedoK",
+      "id": "f185a99cf008",
+      "name": "Manager ABC",
+      "role": "manager"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Сотовые телефоны",
+      "id": 1
+    },
+    {
+      "name": "Гаджеты",
+      "id": 2
+    },
+    {
+      "name": "Аксессуары",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Смартфон Xiaomi 12T, 256 GB, Silver",
+      "category": 1,
+      "categoryName": "Сотовые телефоны",
+      "description": "Артикул: 165245 \nРазмер экрана, дюйм: 6.67 \nРазрешение экрана: 2712 x 1220 \nТип матрицы: CrystalRes AMOLED \nОбъем оперативной памяти: 8 ГБ \nОбъем встроенной памяти: 256 ГБ \nМодель процессора: Dimensity 8100-Ultra \nЧастота процессора: 2.85 ГГц + 2.0 ГГц \nОсновная камера, Мп: 108 + 8 + 2 \nФронтальная камера, Мп: 20 \nБеспроводные интерфейсы: Wi-Fi; Bluetooth; NFC; IrDA \nЕмкость аккумулятора: 5000 мАч \nЭнергоэффективный техпроцесс 5 нм;\nГрафический процессор: Mali-G610 MC6;\nЧастота дискретизации касания: 480 Гц",
+      "prise": 299990,
+      "image": "https://static.shop.kz/upload/iblock/9ff/7pi57r108elabi1fvewj0fjycl15ulwx/165245_01.jpg",
+      "merchantId": [
+        "123M23ERCH789"
+      ],
+      "merchantName": [
+        "Shop.kz"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Смартфон Infinix Note 11 Pro, 128 GB, Mithril Grey",
+      "category": 1,
+      "categoryName": "Сотовые телефоны",
+      "description": "Артикул: 165054 / Размер экрана, дюйм: 6.95 / Разрешение экрана: 2460 x 1080 / Тип матрицы: IPS / Объем оперативной памяти: 8 ГБ / Объем встроенной памяти: 128 ГБ / Модель процессора: Helio G96 / Частота процессора: 2.05 ГГц + 2.0 ГГц / Основная камера, Мп: 64 + 13 + 2 / Фронтальная камера, Мп: 16 / Беспроводные интерфейсы: Wi-Fi; Bluetooth / Емкость аккумулятора: 5000 мАч / Дополнительно: Быстрая зарядка 33Вт; Графический ускоритель Mali-G57 MC2; Частота дискретизации касания: 180 Гц",
+      "prise": 122990,
+      "image": "https://static.shop.kz/upload/iblock/645/3pcctfh4z4fh4ruabcc1mr7w3ln5vki0/165054_01.jpg",
+      "merchantId": [
+        "123M23ERCH456",
+        "123M23ERCH789"
+      ],
+      "merchantName": [
+        "ABC.kz",
+        "Shop.kz"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Смарт-часы Amazfit T-Rex 2 A2170, Desert Khaki",
+      "category": 2,
+      "categoryName": "Гаджеты",
+      "description": "Артикул: 165257 / Размер экрана, дюйм: 1.39 / Разрешение экрана: 454 x 454 / Тип матрицы: AMOLED / Беспроводные интерфейсы: Bluetooth / Емкость аккумулятора: 500 мАч / Время автономной работы смарт-часов: до 24 дней в зависимости от режима работы / Совместимость на момент начала продаж: Android 7.0 и iOS 12.0 и выше / Дополнительно: Магнитное 2-контактное зарядное устройство; Силиконовый ремешок, ширина 22 мм; Регулируемая длина ремешка от 140 до 205 мм",
+      "prise": 109990,
+      "image": "https://static.shop.kz/upload/iblock/5d9/v28rorqrzbgky6ca8ga6qfdz37ti4miq/165257_01.jpg",
+      "merchantId": [
+        "123M23ERCH456"
+      ],
+      "merchantName": [
+        "ABC.kz"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Смарт-часы Apple Watch Series 8, 45mm, Midnight",
+      "category": 2,
+      "categoryName": "Гаджеты",
+      "description": "Артикул: 165196 / Размер экрана, дюйм: 1.9 / Разрешение экрана: 396 x 484 / Тип матрицы: Retina / Объем встроенной памяти: 32 ГБ / Модель процессора: S8 SiP / Беспроводные интерфейсы: Wi-Fi; Bluetooth / Время автономной работы смарт-часов: До 18 часов / Совместимость на момент начала продаж: iOS 16 или новее / Дополнительно: Класс пылезащиты (IP6X); Водонепроницаемость 50 метров ; 11 различных режимов тренировок",
+      "prise": 281900,
+      "image": "https://static.shop.kz/upload/iblock/2ce/wns6xerh31g03v2b4sllfyz58md0t1uq/00000165196.jpg",
+      "merchantId": [
+        "123M23ERCH789"
+      ],
+      "merchantName": [
+        "Shop.kz"
+      ]
+    },
+    {
+      "id": 209757,
+      "name": "Настольные часы с беспроводной зарядкой Kitfort КТ-3308, White",
+      "prise": 31990,
+      "description": "Артикул: 165084\nСуммарный ток потребления, А: 0.4 \nСуммарная мощность, Вт: 12 \nКоличество одновременно подключаемых устройств: 1 \nСовместимость: Устройства, поддерживающие протокол беспроводной зарядки Qi \nДлина кабеля, м: 1.5 \nОсобенности: Беспроводная зарядка Qi; Подсветка; LED дисплей",
+      "image": "https://static.shop.kz/upload/iblock/f78/s7g9a0oyo2f2ti4uuq8508k76rf2tnhr/00000165084_1.jpg",
+      "category": 3,
+      "categoryName": "Аксессуары",
+      "merchantId": [
+        "123M23ERCH789"
+      ],
+      "merchantName": [
+        "Shop.kz"
+      ]
+    }
+  ],
+  "orderHistory": [
+    {
+      "id": "f18505fa0dd3",
+      "address": "street123",
+      "date": "12.12.2022",
+      "phone": "+77052377378",
+      "pay": "Картой",
+      "status": "Закрыт",
+      "orderProducts": [
+        {
+          "id": 1,
+          "name": "Смартфон Xiaomi 12T, 256 GB, Silver",
+          "description": "Артикул: 165245 / Размер экрана, дюйм: 6.67 / Разрешение экрана: 2712 x 1220 / Тип матрицы: CrystalRes AMOLED / Объем оперативной памяти: 8 ГБ / Объем встроенной памяти: 256 ГБ / Модель процессора: Dimensity 8100-Ultra / Частота процессора: 2.85 ГГц + 2.0 ГГц / Основная камера, Мп: 108 + 8 + 2 / Фронтальная камера, Мп: 20 / Беспроводные интерфейсы: Wi-Fi; Bluetooth; NFC; IrDA / Емкость аккумулятора: 5000 мАч / Дополнительно: Энергоэффективный техпроцесс 5 нм; Графический процессор: Mali-G610 MC6; Частота дискретизации касания: 480 Гц",
+          "image": "https://static.shop.kz/upload/iblock/9ff/7pi57r108elabi1fvewj0fjycl15ulwx/165245_01.jpg",
+          "prise": 299990,
+          "amount": 3,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 899970
+    },
+    {
+      "id": "f185a5b9b5b2",
+      "address": "Кабанбай батыра 5/1",
+      "date": "26.01.2023",
+      "phone": "+77052377378",
+      "pay": "Картой",
+      "status": "Отправлен",
+      "orderProducts": [
+        {
+          "id": 5,
+          "name": "Смарт-часы Apple Watch Series 8, 45mm, Midnight",
+          "description": "Артикул: 165196 / Размер экрана, дюйм: 1.9 / Разрешение экрана: 396 x 484 / Тип матрицы: Retina / Объем встроенной памяти: 32 ГБ / Модель процессора: S8 SiP / Беспроводные интерфейсы: Wi-Fi; Bluetooth / Время автономной работы смарт-часов: До 18 часов / Совместимость на момент начала продаж: iOS 16 или новее / Дополнительно: Класс пылезащиты (IP6X); Водонепроницаемость 50 метров ; 11 различных режимов тренировок",
+          "image": "https://static.shop.kz/upload/iblock/2ce/wns6xerh31g03v2b4sllfyz58md0t1uq/00000165196.jpg",
+          "prise": 281900,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        },
+        {
+          "id": 209757,
+          "name": "Настольные часы с беспроводной зарядкой Kitfort КТ-3308, White",
+          "description": "Артикул: 165084\nСуммарный ток потребления, А: 0.4 \nСуммарная мощность, Вт: 12 \nКоличество одновременно подключаемых устройств: 1 \nСовместимость: Устройства, поддерживающие протокол беспроводной зарядки Qi \nДлина кабеля, м: 1.5 \nОсобенности: Беспроводная зарядка Qi; Подсветка; LED дисплей",
+          "image": "https://static.shop.kz/upload/iblock/f78/s7g9a0oyo2f2ti4uuq8508k76rf2tnhr/00000165084_1.jpg",
+          "prise": 31990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 313890
+    },
+    {
+      "id": "f185aab8b966",
+      "address": "street123",
+      "date": "20.01.2023",
+      "phone": "+77052377378",
+      "pay": "Наличными",
+      "status": "Создан",
+      "orderProducts": [
+        {
+          "id": 4,
+          "name": "Смарт-часы Amazfit T-Rex 2 A2170, Desert Khaki",
+          "description": "Артикул: 165257 / Размер экрана, дюйм: 1.39 / Разрешение экрана: 454 x 454 / Тип матрицы: AMOLED / Беспроводные интерфейсы: Bluetooth / Емкость аккумулятора: 500 мАч / Время автономной работы смарт-часов: до 24 дней в зависимости от режима работы / Совместимость на момент начала продаж: Android 7.0 и iOS 12.0 и выше / Дополнительно: Магнитное 2-контактное зарядное устройство; Силиконовый ремешок, ширина 22 мм; Регулируемая длина ремешка от 140 до 205 мм",
+          "image": "https://static.shop.kz/upload/iblock/5d9/v28rorqrzbgky6ca8ga6qfdz37ti4miq/165257_01.jpg",
+          "prise": 109990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH456"
+          ],
+          "merchantName": [
+            "ABC.kz"
+          ]
+        },
+        {
+          "id": 209757,
+          "name": "Настольные часы с беспроводной зарядкой Kitfort КТ-3308, White",
+          "description": "Артикул: 165084\nСуммарный ток потребления, А: 0.4 \nСуммарная мощность, Вт: 12 \nКоличество одновременно подключаемых устройств: 1 \nСовместимость: Устройства, поддерживающие протокол беспроводной зарядки Qi \nДлина кабеля, м: 1.5 \nОсобенности: Беспроводная зарядка Qi; Подсветка; LED дисплей",
+          "image": "https://static.shop.kz/upload/iblock/f78/s7g9a0oyo2f2ti4uuq8508k76rf2tnhr/00000165084_1.jpg",
+          "prise": 31990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 141980
+    },
+    {
+      "id": "f185aad594b8",
+      "address": "Кабанбай батыра 5/1",
+      "date": "29.01.2023",
+      "phone": "+77052377378",
+      "pay": "Наличными",
+      "status": "Создан",
+      "orderProducts": [
+        {
+          "id": 2,
+          "name": "Смартфон Infinix Note 11 Pro, 128 GB, Mithril Grey",
+          "description": "Артикул: 165054 / Размер экрана, дюйм: 6.95 / Разрешение экрана: 2460 x 1080 / Тип матрицы: IPS / Объем оперативной памяти: 8 ГБ / Объем встроенной памяти: 128 ГБ / Модель процессора: Helio G96 / Частота процессора: 2.05 ГГц + 2.0 ГГц / Основная камера, Мп: 64 + 13 + 2 / Фронтальная камера, Мп: 16 / Беспроводные интерфейсы: Wi-Fi; Bluetooth / Емкость аккумулятора: 5000 мАч / Дополнительно: Быстрая зарядка 33Вт; Графический ускоритель Mali-G57 MC2; Частота дискретизации касания: 180 Гц",
+          "image": "https://static.shop.kz/upload/iblock/645/3pcctfh4z4fh4ruabcc1mr7w3ln5vki0/165054_01.jpg",
+          "prise": 122990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH456"
+          ],
+          "merchantName": [
+            "ABC.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 122990
+    },
+    {
+      "id": "f185aae2ca8c",
+      "address": "Кабанбай батыра 5/1",
+      "date": "03.02.2023",
+      "phone": "+77052377378",
+      "pay": "Картой",
+      "status": "Создан",
+      "orderProducts": [
+        {
+          "id": 2,
+          "name": "Смартфон Infinix Note 11 Pro, 128 GB, Mithril Grey",
+          "description": "Артикул: 165054 / Размер экрана, дюйм: 6.95 / Разрешение экрана: 2460 x 1080 / Тип матрицы: IPS / Объем оперативной памяти: 8 ГБ / Объем встроенной памяти: 128 ГБ / Модель процессора: Helio G96 / Частота процессора: 2.05 ГГц + 2.0 ГГц / Основная камера, Мп: 64 + 13 + 2 / Фронтальная камера, Мп: 16 / Беспроводные интерфейсы: Wi-Fi; Bluetooth / Емкость аккумулятора: 5000 мАч / Дополнительно: Быстрая зарядка 33Вт; Графический ускоритель Mali-G57 MC2; Частота дискретизации касания: 180 Гц",
+          "image": "https://static.shop.kz/upload/iblock/645/3pcctfh4z4fh4ruabcc1mr7w3ln5vki0/165054_01.jpg",
+          "prise": 122990,
+          "amount": 2,
+          "merchantId": [
+            "123M23ERCH456"
+          ],
+          "merchantName": [
+            "ABC.kz"
+          ]
+        },
+        {
+          "id": 209757,
+          "name": "Настольные часы с беспроводной зарядкой Kitfort КТ-3308, White",
+          "description": "Артикул: 165084\nСуммарный ток потребления, А: 0.4 \nСуммарная мощность, Вт: 12 \nКоличество одновременно подключаемых устройств: 1 \nСовместимость: Устройства, поддерживающие протокол беспроводной зарядки Qi \nДлина кабеля, м: 1.5 \nОсобенности: Беспроводная зарядка Qi; Подсветка; LED дисплей",
+          "image": "https://static.shop.kz/upload/iblock/f78/s7g9a0oyo2f2ti4uuq8508k76rf2tnhr/00000165084_1.jpg",
+          "prise": 31990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 277970
+    },
+    {
+      "id": "f185b8cce01e",
+      "address": "Кабанбай батыра 5/1",
+      "date": "03.02.2023",
+      "phone": "+77052377378",
+      "pay": "Наличными",
+      "status": "Создан",
+      "orderProducts": [
+        {
+          "id": 2,
+          "name": "Смартфон Infinix Note 11 Pro, 128 GB, Mithril Grey",
+          "description": "Артикул: 165054 / Размер экрана, дюйм: 6.95 / Разрешение экрана: 2460 x 1080 / Тип матрицы: IPS / Объем оперативной памяти: 8 ГБ / Объем встроенной памяти: 128 ГБ / Модель процессора: Helio G96 / Частота процессора: 2.05 ГГц + 2.0 ГГц / Основная камера, Мп: 64 + 13 + 2 / Фронтальная камера, Мп: 16 / Беспроводные интерфейсы: Wi-Fi; Bluetooth / Емкость аккумулятора: 5000 мАч / Дополнительно: Быстрая зарядка 33Вт; Графический ускоритель Mali-G57 MC2; Частота дискретизации касания: 180 Гц",
+          "image": "https://static.shop.kz/upload/iblock/645/3pcctfh4z4fh4ruabcc1mr7w3ln5vki0/165054_01.jpg",
+          "prise": 122990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        },
+        {
+          "id": 209757,
+          "name": "Настольные часы с беспроводной зарядкой Kitfort КТ-3308, White",
+          "description": "Артикул: 165084\nСуммарный ток потребления, А: 0.4 \nСуммарная мощность, Вт: 12 \nКоличество одновременно подключаемых устройств: 1 \nСовместимость: Устройства, поддерживающие протокол беспроводной зарядки Qi \nДлина кабеля, м: 1.5 \nОсобенности: Беспроводная зарядка Qi; Подсветка; LED дисплей",
+          "image": "https://static.shop.kz/upload/iblock/f78/s7g9a0oyo2f2ti4uuq8508k76rf2tnhr/00000165084_1.jpg",
+          "prise": 31990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 154980
+    },
+    {
+      "id": "f185b8cdf415",
+      "address": "Кабанбай батыра 5/1",
+      "date": "05.02.2023",
+      "phone": "+77052377378",
+      "pay": "Наличными",
+      "status": "Создан",
+      "orderProducts": [
+        {
+          "id": 2,
+          "name": "Смартфон Infinix Note 11 Pro, 128 GB, Mithril Grey",
+          "description": "Артикул: 165054 / Размер экрана, дюйм: 6.95 / Разрешение экрана: 2460 x 1080 / Тип матрицы: IPS / Объем оперативной памяти: 8 ГБ / Объем встроенной памяти: 128 ГБ / Модель процессора: Helio G96 / Частота процессора: 2.05 ГГц + 2.0 ГГц / Основная камера, Мп: 64 + 13 + 2 / Фронтальная камера, Мп: 16 / Беспроводные интерфейсы: Wi-Fi; Bluetooth / Емкость аккумулятора: 5000 мАч / Дополнительно: Быстрая зарядка 33Вт; Графический ускоритель Mali-G57 MC2; Частота дискретизации касания: 180 Гц",
+          "image": "https://static.shop.kz/upload/iblock/645/3pcctfh4z4fh4ruabcc1mr7w3ln5vki0/165054_01.jpg",
+          "prise": 122990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH456"
+          ],
+          "merchantName": [
+            "ABC.kz"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Смарт-часы Amazfit T-Rex 2 A2170, Desert Khaki",
+          "description": "Артикул: 165257 / Размер экрана, дюйм: 1.39 / Разрешение экрана: 454 x 454 / Тип матрицы: AMOLED / Беспроводные интерфейсы: Bluetooth / Емкость аккумулятора: 500 мАч / Время автономной работы смарт-часов: до 24 дней в зависимости от режима работы / Совместимость на момент начала продаж: Android 7.0 и iOS 12.0 и выше / Дополнительно: Магнитное 2-контактное зарядное устройство; Силиконовый ремешок, ширина 22 мм; Регулируемая длина ремешка от 140 до 205 мм",
+          "image": "https://static.shop.kz/upload/iblock/5d9/v28rorqrzbgky6ca8ga6qfdz37ti4miq/165257_01.jpg",
+          "prise": 109990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH456"
+          ],
+          "merchantName": [
+            "ABC.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 232980
+    },
+    {
+      "id": "f185b92ea636",
+      "address": "Street, 123",
+      "date": "01.02.2023",
+      "phone": "+71231231234",
+      "pay": "Картой",
+      "status": "Создан",
+      "orderProducts": [
+        {
+          "id": 1,
+          "name": "Смартфон Xiaomi 12T, 256 GB, Silver",
+          "description": "Артикул: 165245 \nРазмер экрана, дюйм: 6.67 \nРазрешение экрана: 2712 x 1220 \nТип матрицы: CrystalRes AMOLED \nОбъем оперативной памяти: 8 ГБ \nОбъем встроенной памяти: 256 ГБ \nМодель процессора: Dimensity 8100-Ultra \nЧастота процессора: 2.85 ГГц + 2.0 ГГц \nОсновная камера, Мп: 108 + 8 + 2 \nФронтальная камера, Мп: 20 \nБеспроводные интерфейсы: Wi-Fi; Bluetooth; NFC; IrDA \nЕмкость аккумулятора: 5000 мАч \nЭнергоэффективный техпроцесс 5 нм;\nГрафический процессор: Mali-G610 MC6;\nЧастота дискретизации касания: 480 Гц",
+          "image": "https://static.shop.kz/upload/iblock/9ff/7pi57r108elabi1fvewj0fjycl15ulwx/165245_01.jpg",
+          "prise": 299990,
+          "amount": 1,
+          "merchantId": [
+            "123M23ERCH789"
+          ],
+          "merchantName": [
+            "Shop.kz"
+          ]
+        }
+      ],
+      "userId": "f18437c2e887",
+      "sum": 299990
+    }
+  ],
+  "merchants": [
+    {
+      "merchantUsers": [
+        "f184f195f073",
+        "f18595198d23"
+      ],
+      "merchantName": "Shop.kz",
+      "id": "123M23ERCH789"
+    },
+    {
+      "merchantUsers": [
+        "f185a99cf008"
+      ],
+      "merchantName": "ABC.kz",
+      "id": "123M23ERCH456"
+    },
+    {
+      "merchantUsers": [],
+      "merchantName": "New Shop",
+      "id": "185aa59ae96"
+    }
+  ]
+}
