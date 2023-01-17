@@ -597,3 +597,32 @@ input::placeholder {
   font-size: 17px;
   margin-right: 4px;
 }
+
+.slider {
+  position: relative;
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.slider-img {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  transition: all 0.4s;
+}
+.slider-img-prev {
+  transform: translateX(-100%);
+}
+.slider-img-next {
+  transform: translateX(100%);
+}
+
+.title {
+  color: #2E3E3C;
+  margin-bottom: 40px;
+}

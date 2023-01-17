@@ -18,9 +18,10 @@ const Profile = () => {
     const queryClient = useQueryClient();
 
     const { isLoading, data, error } = useQuery(
-        ['user', userId],
-        () => getUser(userId),
-        { enabled: !!userId }
+        'user', 
+        userId 
+        ?   () => getUser(userId)
+        :   () => null
     );
     
     const fetchOrdersInfo = useQuery(
