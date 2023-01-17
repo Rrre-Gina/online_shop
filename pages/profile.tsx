@@ -144,7 +144,7 @@ const Profile = () => {
                                                             </div>
                                                         </div>  
                                                         <div className={ orderProductsInfo[item.id] ? '' : 'hide' }>
-                                                            <h4 className="title">Товары заказа</h4>
+                                                            <h4 className="order-products__title">Товары заказа</h4>
                                                             { 
                                                                 item.orderProducts.map(product => 
                                                                     <div 
