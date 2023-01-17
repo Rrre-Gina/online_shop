@@ -27,7 +27,7 @@ const Home = () => {
         <>
             <Header />
             <main>
-                <h2 className="title">Интернет магазин "Online shop"</h2>
+                <h2 className="title">Интернет магазин &quot;Online shop&quot;</h2>
                 <div className="slider">
                     <div className="slider-img slider-img-prev"
                             key={prevImgIndex}>
