@@ -600,14 +600,14 @@ input::placeholder {
 
 .slider {
   position: relative;
-  width: 90%;
+  width: 80%;
   height: 400px;
   margin: auto;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 16px;
 }
 .slider-img {
   position: absolute;

@@ -17,7 +17,7 @@ const Home = () => {
                 return res
             })
         }, 5000)
-        return () => clearInterval()
+        return () => clearInterval(interval)
     }, [])
  
     const prevImgIndex = activeIndex ? activeIndex - 1 : img.length - 1;
